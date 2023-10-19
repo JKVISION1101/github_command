@@ -1,5 +1,10 @@
 # github_command
 
+git remote : remote 목록 확인.
+
+git remote -v :remote 목록 확인
+
+git branch -D " 삭제할 branch명: branch 삭제. 
 
 
 git push: 원격저장서 origin과 현재 checkout되어있는 branch를 기본값으로 push, 만약 현재 checkout 되어있는 branch명이 main이면
