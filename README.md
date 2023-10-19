@@ -1,5 +1,11 @@
 # github_command
 
+git log: 지금까지 커밋사항을 볼 수 있음
+
+git status: 변화 내역을 볼 수 있음. 
+
+git reset --hard 돌아갈 커밋 해쉬: 해당 커밋으로 돌아감.
+
 git remote : remote 목록 확인.
 
 git remote -v :remote 목록 확인
