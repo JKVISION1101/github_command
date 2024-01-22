@@ -10,6 +10,8 @@ git remote : remote 목록 확인.
 
 git remote -v :remote 목록 확인
 
+git restore . : 변경 내용 삭제.
+
 git branch -D " 삭제할 branch명: branch 삭제. 
 
 
