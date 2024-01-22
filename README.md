@@ -1,5 +1,9 @@
 # github_command
 
+git add.
+
+git commit -m " ": 메세지
+
 git log: 지금까지 커밋사항을 볼 수 있음
 
 git status: 변화 내역을 볼 수 있음. 
