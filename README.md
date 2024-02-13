@@ -1,5 +1,7 @@
 # github_command
 
+git clone [github_주소]
+
 git add.
 
 git commit -m " ": 메세지
