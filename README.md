@@ -27,6 +27,8 @@ git branch -a  (모든 브랜치 목록 조회)
 
 git pull 원격저장소(ex.origin) 원격저장소 branch
 
+git commit --amend: 이전 수정사항에서 더하기
+
 
 
 git push: 원격저장서 origin과 현재 checkout되어있는 branch를 기본값으로 push, 만약 현재 checkout 되어있는 branch명이 main이면
