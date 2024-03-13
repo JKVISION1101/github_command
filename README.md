@@ -21,8 +21,9 @@ git restore . : 변경 내용 삭제.
 git branch -D " 삭제할 branch명: branch 삭제. 
 
 git branch  (로컬 브랜치 목록 조회)
-git branch -r  (원격 브랜치 목록 조회)
+git branch -r  (원격 브랜치 목록 조회) git branch --remote
 git branch -a  (모든 브랜치 목록 조회)
+git branch 
 
 
 git pull 원격저장소(ex.origin) 원격저장소 branch
@@ -36,3 +37,9 @@ git push: 원격저장서 origin과 현재 checkout되어있는 branch를 기본
 
 
 git push origin A:B ->만약 내 특정 로컬브랜치(A)를 원격저장소의 특정 브랜치(B)로 푸쉬하고 싶다면
+
+git push --set-upstream A B 이렇게 이 명령을 한번 하게 되면 이제 원격저장소는 B 가 되기 때문에 다시 push 할 때 --set-upstream 을 쓰지 않아도 됩니당
+
+git branch -vv upstream 확인.
+
+git branch -u [upstream branch]: push없이 원격저장소만 지
