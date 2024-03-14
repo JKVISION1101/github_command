@@ -43,3 +43,6 @@ git push --set-upstream A B 이렇게 이 명령을 한번 하게 되면 이제 
 git branch -vv upstream 확인.
 
 git branch -u [upstream branch]: push없이 원격저장소만 지
+
+
+git add. git commit --amend -> 직전 커밋에 내용 첨가하고 수정하기.
